@@ -1,0 +1,22 @@
+{
+  "name": "bciapp",
+  "version": "1.0.0",
+  "description": "API Rest Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhoper/bci.git"
+  },
+  "keywords": [
+    "moi"
+  ],
+  "author": "mPerez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhoper/bci/issues"
+  },
+  "homepage": "https://github.com/yhoper/bci#readme"
+}
