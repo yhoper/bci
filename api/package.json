@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/yhoper/bci/issues"
   },
-  "homepage": "https://github.com/yhoper/bci#readme"
+  "homepage": "https://github.com/yhoper/bci#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-system": "^2.2.2"
+  }
 }
