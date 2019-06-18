@@ -1,0 +1,74 @@
+$font-stack:    'Overpass', sans-serif
+$silver-color: #37474f 
+$green-color: #00893c
+$red-color: #e0333b
+$blue-color: #2772cc
+$yellow-color: #ffdd00
+$white-color: #fff
+
+$paragraph45: 45px
+$paragraph34: 34px
+$paragraph24: 24px
+$paragraph20: 20px
+$paragraph16: 16px
+
+.font34
+    font-size: 34px
+
+.green-color
+    color: $green-color
+
+.red-color
+    color: $red-color
+
+.blue-color
+    color: $blue-color
+
+.yellow-color
+    color: $yellow-color
+
+.white-color
+    color: $white-color
+
+.silver-color
+    color: $silver-color
+
+body
+  font: 100% $font-stack
+  @extend .silver-color
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+
+h1  
+    font:  $paragraph45 $font-stack
+    @extend .silver-color
+
+h2 
+    font: $paragraph34 $font-stack
+
+h3 
+    font: $paragraph24 $font-stack
+
+h4 
+    font: $paragraph16 $font-stack
+
+h3 
+    font: $paragraph20 $font-stack
+
+.paragraph16
+    font: $paragraph16 $font-stack
+    @extend .silver-color
+
+.characters
+    font: $paragraph45 $font-stack
+    color: $green-color
+
+.green
+    background-color: $green-color
+    border: $green-color
+    color: $white-color
+    border-radius: 25px
+    padding: 15px
+    @extend .paragraph16
+
