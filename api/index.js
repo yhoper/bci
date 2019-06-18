@@ -16,7 +16,7 @@ app.get(baseUrl+luke, function (req, res) {
         if (error)
         console.log(error);
         else
-        res.send(datos.toString());
+        res.send(JSON.parse(datos));
     });
 });
 //Darth-Vader
@@ -25,10 +25,10 @@ app.get(baseUrl+vader, function (req, res) {
         if (error)
         console.log(error);
         else
-        res.send(datos.toString());
+        res.send(JSON.parse(datos));
     });
 });
 
 app.listen(9990, () => {
-    console.log("El servidor está inicializado en el puerto 9990");
+    console.log("El servidor se encuentra en el puerto 9990");
 });
